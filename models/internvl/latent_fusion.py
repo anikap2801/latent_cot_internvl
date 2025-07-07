@@ -20,4 +20,10 @@ class LatentFusionModule(nn.Module):
             print("⚠️ Skipping reasoning: fused embedding is empty.")
             return fused
 
+        # Handle mismatch in batch or sequence dimensions
+        if fused.shape[0] == 0 or fused.shape[1] == 0:
+            print("⚠️ Skipping reasoning: invalid fused shape", fused.shape)
+            return fused
+
         return self.reasoning_module(fused)
+

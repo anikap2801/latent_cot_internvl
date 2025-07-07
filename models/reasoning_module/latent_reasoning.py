@@ -19,22 +19,24 @@ class LatentReasoningModule(nn.Module):
         if self.use_feedback:
             self.gru = nn.GRU(input_size=dim, hidden_size=dim, batch_first=True)
 
-    def forward(self, x, original=None, attention_mask=None):
-        """
-        x: [B, T, D] - latent fused representation
-        original: optional [B, T, D] - original fused embedding (used for feedback)
-        attention_mask: optional [B, T] - mask to restrict attention
-        """
-        for _ in range(self.steps):
-            # Self-Attention with residual
-            attn_output, _ = self.attn(x, x, x, key_padding_mask=~attention_mask if attention_mask is not None else None)
-            x = x + attn_output  # residual connection
+    def forward(self, vision_embeds, language_embeds):
+        if language_embeds is None:
+            print("⚠️ Skipping batch: language_embeds is None.")
+            return vision_embeds
 
-            # Feed-forward with residual
-            x = x + self.ffn(x)
+        if language_embeds.shape[0] == 0 or language_embeds.shape[1] == 0:
+            print(f"⚠️ Skipping batch: language_embeds shape = {language_embeds.shape}")
+            return vision_embeds
 
-            # Optional: feedback from original features
-            if self.use_feedback and original is not None:
-                x, _ = self.gru(x, original.unsqueeze(0))  # feedback using GRU with original as initial hidden state
+        fused = self.original_fusion(vision_embeds, language_embeds)
 
-        return x
+        if fused is None or fused.shape[0] == 0 or fused.shape[1] == 0:
+            print(f"⚠️ Skipping reasoning: fused shape = {fused.shape if fused is not None else None}")
+            return vision_embeds
+
+        # Extra shape check to match vit and input embeddings before reasoning
+        if fused.shape[1] != vision_embeds.shape[0]:
+            print(f"⚠️ Shape mismatch: fused={fused.shape}, vision_embeds={vision_embeds.shape}")
+            return vision_embeds
+
+        return self.reasoning_module(fused)

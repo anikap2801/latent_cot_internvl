@@ -1,26 +1,22 @@
 import sys
 import os
 import yaml
-import traceback
-
-# Add root to sys.path
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-sys.path.append(ROOT_DIR)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import torch
-from transformers import AutoModel, AutoProcessor
+from transformers import AutoModel, AutoProcessor, AutoTokenizer
 from models.internvl.latent_fusion import LatentFusionModule
 from models.reasoning_module.latent_reasoning import LatentReasoningModule
 from utils.dataloader import get_dataloaders
 from torch import optim
 from accelerate import Accelerator
 from torch.utils.tensorboard import SummaryWriter
-
+import warnings
+warnings.filterwarnings("default")
 
 def main():
-    # Load config with absolute path
-    config_path = os.path.join(ROOT_DIR, "configs", "config.yaml")
-    with open(config_path, "r") as f:
+    # Load config
+    with open("configs/config.yaml", "r") as f:
         cfg = yaml.safe_load(f)
 
     # Extract config values
@@ -43,24 +39,22 @@ def main():
         "OpenGVLab/InternVL3-1B-Pretrained",
         trust_remote_code=True
     )
-    print("✅ Processor type:", type(processor))
+    print("Processor type:", type(processor))
 
     # Fallback to tokenizer if needed
     tokenizer = processor.tokenizer if hasattr(processor, "tokenizer") else processor
 
-    # Freeze base encoders
+    # Freeze base encoders (text+image encoder)
     for name, param in model.named_parameters():
         if "vision_tower" in name or "language_model" in name:
             param.requires_grad = False
 
-    # Replace fusion module with latent reasoning
+    # Replace fusion module
     if hasattr(model, "fusion_module"):
         model.fusion_module = LatentFusionModule(
             model.fusion_module,
             LatentReasoningModule(dim=latent_dim, steps=latent_steps)
         )
-    else:
-        print("⚠️ Warning: model does not have attribute 'fusion_module'. Skipping fusion module replacement.")
 
     # Prepare dataloaders
     dataloaders = get_dataloaders(tokenizer, batch_size=batch_size)
@@ -74,25 +68,28 @@ def main():
         model, optimizer, dataloaders['train']
     )
 
-    # ✅ Use Kaggle-safe path
-    writer = SummaryWriter(log_dir="/kaggle/working/runs/latent_cot")
+    writer = SummaryWriter(log_dir="runs/latent_cot")
 
     # Training loop
     model.train()
     for epoch in range(epochs):
         epoch_loss = 0.0
-        print(f"\n🚀 Epoch {epoch+1} starting...")
         for step, batch in enumerate(train_loader):
+            if step == 0:
+                print("Batch info:")
+                print("input_ids:", batch["input_ids"].shape)
+                print("pixel_values:", batch["pixel_values"].shape)
+                print("attention_mask:", batch["attention_mask"].shape)
+
+            # Set image_flags to shape [batch_size, 1] with True values
             batch_size = batch["pixel_values"].size(0)
             image_flags = torch.ones(batch_size, 1, dtype=torch.bool).to(batch["pixel_values"].device)
 
             try:
-                # Debug print shapes
-                print(f"\n➡️ Step {step}")
-                print("  input_ids:", batch["input_ids"].shape)
-                print("  pixel_values:", batch["pixel_values"].shape)
-                print("  attention_mask:", batch["attention_mask"].shape)
-                print("  image_flags:", image_flags.shape)
+                # Skip empty batch cases
+                if batch["input_ids"].size(0) == 0 or batch["pixel_values"].size(0) == 0:
+                    print(f"Step {step}: Empty batch found. Skipping.")
+                    continue
 
                 outputs = model(
                     pixel_values=batch["pixel_values"],
@@ -102,13 +99,13 @@ def main():
                     labels=batch["input_ids"]
                 )
 
+                # Skip if model returned nothing
                 if outputs is None or not hasattr(outputs, "loss"):
-                    print(f"⚠️ Skipping step {step}: model returned None or no loss.")
+                    print(f"Skipping step {step} due to empty model output.")
                     continue
 
             except Exception as e:
-                print(f"❌ Error during forward pass at step {step}: {e}")
-                traceback.print_exc()
+                print("Model forward pass failed at step", step, "with error:", e)
                 continue
 
             loss = outputs.loss
@@ -120,10 +117,9 @@ def main():
 
         avg_loss = epoch_loss / len(train_loader)
         writer.add_scalar("Loss/train", avg_loss, epoch + 1)
-        print(f"✅ Epoch {epoch + 1} completed - Avg Loss: {avg_loss:.4f}")
+        print(f"Epoch {epoch+1} Avg Loss: {avg_loss:.4f}")
 
     writer.close()
-    print("🏁 Training finished.")
 
 if __name__ == "__main__":
     main()
