@@ -1,0 +1,1162 @@
+[
+  {
+    "question": "The Temple of Artemis was an illustrious temple at Ephesus dedicated to a distinctly Ionian form of Artemis, the Greek Olympian best known as the goddess of the hunt. Daughter of Zeus and twin of Apollo, Artemis is typially depicted with a golden bow and arrow.",
+    "difficulty": "medium",
+    "image": [
+      "test\\0_0.png"
+    ],
+    "solution": "PATROL",
+    "steps": [
+      "<<Each set of four clues corresponds to words placed around a target>>",
+      "<<In order of each target, the hinted words are: ANCESTOR, CARDINAL, REVOLVER, OXYMORON; PLATYPUS, ATTORNEY, GAUNTLET, ETERNITY; SHIPYARD, ASTEROID, NARRATOR, CALCULUS; DIAMETER, EXERCISE, FRIENDLY, ELEMENTS; MILKY WAY, YOUNGEST, TORTOISE, HEADLESS; BARITONE, ROMANTIC, INFARED, LOLLIPOP>>",
+      "<<As words are placed correctly, a nearly complete nine-letter word appears horizontally across the middle of each bullseye>>",
+      "<<The middle letter to each word is missing, and the correct letter must be inferred to spell the full word>>",
+      "<<In order, the words are: ACROPOLIS, PAGEANTRY, SANCTUARY, DEFERENCE, MYTHOLOGY, BRILLIANT>>",
+      "<<The missing middle letters from the targets spell out the final answer: PATROL>>"
+    ]
+  },
+  {
+    "question": "In the Futuristic Zone a Mystery game is chosen. In the room you are confronted with a large hexagonal grid. The sign on the wall reads: WARNING: LASER DEFENSE SYSTEM EACH CELL CONTAINS A SINGLE LASER TRIPWIRE NUMBERS INDICATE HOW MANY LASERS HIT THAT POINT LASERS DO NOT HIT LETTERS. Complete the maze and find out how you should make your way through it",
+    "difficulty": "medium",
+    "image": [
+      "test\\1_0.png"
+    ],
+    "solution": "MARCH",
+    "steps": [
+      "<<First, observe the hexagonal grid contains both letters and numbers>>",
+      "<<The numbers indicate how many laser beams intersect at that point, while letters are not affected by lasers>>",
+      "<<Each cell contains a single laser tripwire that must be placed in a way that satisfies all the number constraints - the numbers indicate how many lasers cross at that point>>",
+      "<<Following the path and collecting the letters along it, we get several letters that need to be arranged, which gives 'THREE MONTHS BEFORE JUNE'>>",
+      "<<This gives us a hint that we're looking for the month that is three months before June>>",
+      "<<Looking at the bottom of the puzzle, we see empty hexagons that can fit the letters we collected>>",
+      "<<When we arrange the correct letters from our path, they spell out 'MARCH', which is indeed three months before June>>"
+    ]
+  },
+  {
+    "question": "I got your note about your missing house keys. You must be getting impatient for a reply; this is the **second letter** you've sent me today. I'm sorry that you're locked out of your house but there's not much I can say other than....",
+    "difficulty": "easy",
+    "image": [
+      "test\\2_0.png"
+    ],
+    "solution": "OPEN SESAME",
+    "steps": [
+      "<<Note that each clue has two answers, with one differing letter>>",
+      "<<Extract the differing letter from each clue to get the final answer \"OPEN SESAME\">>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "easy",
+    "image": [
+      "test\\3_0.png"
+    ],
+    "solution": "WILLSMITH",
+    "steps": [
+      "<<Identify the movie that is referenced in each image that has aliens>>",
+      "<<These 9 ships match up with the 9 characters>>",
+      "<<The moons above each character become a letter using connect-the-dots, following the order of the moon phases>>",
+      "<<Putting the aliens' letters on their corresponding ship gets MIB AGENT J which clues the actor WILL SMITH>>"
+    ]
+  },
+  {
+    "question": "Bumble the elf was tidying the workshop when he accidentally dropped a bag of Christmas items, splitting them in half. Now he's having trouble connecting the pieces back together. Can you help Bumble clean up his mess before Santa notices? Otherwise he'll soon be\u2026",
+    "difficulty": "medium",
+    "image": [
+      "test\\4_0.png"
+    ],
+    "solution": "ELF-EMPLOYED",
+    "steps": [
+      "<<The puzzle presents a list of clues on the left and right sides, with letters scattered throughout a diagram in the middle>>",
+      "<<Each clue corresponds to a word that has been split into two parts>>",
+      "<<The task is to match each clue with its answer and connect the corresponding parts in the diagram>>",
+      "<<For example, 'Regret (3)' matches with 'RUE' and 'Pennywise franchise (2)' matches with 'IT', forming 'RUEIT'>>",
+      "<<Other pairs include 'TIN' + 'CELL' (Sn or number 50 + Building block of life), 'REIGN' + 'KING' (Queen Elizabeth II's was 70 years + Arthur, Tut or T'challa), 'NO' + 'GULL' (Word beloved by toddlers + Web-footed seabird), and so on>>",
+      "<<After connecting all the pairs, certain letters are highlighted in the diagram, spelling 'LONG HOLLY'>>",
+      "<<Looking at the holly leaves in the diagram, we can see they form patterns that correspond to semaphore signals (a visual signaling system using flag positions)>>",
+      "<<The semaphore patterns formed by the longer holly leaves spell out 'ELF-EMPLOYED'>>",
+      "<<This is a pun that completes the sentence in the flavor text: 'Otherwise he'll soon be ELF-EMPLOYED' (instead of unemployed)>>"
+    ]
+  },
+  {
+    "question": "Lord Stannis Baratheon was poring over a chart in his castle, Dragonstone. One of his sworn houses had turned against him, but he didn\u2019t know who.\n\nMelisandre left a letter for him before vanishing. The letter appears strange, with many spelling mistakes and odd wording. Ser Davos suggests looking closer at the letter for a hidden message.",
+    "difficulty": "medium",
+    "image": [
+      "test\\5_0.png"
+    ],
+    "solution": "HOUSE BANISTER",
+    "steps": [
+      "<<Notice that the flavor text indicates that the message contains a code, evidenced by Melisandre saying 'the night is dark and full of errors' Notice that the underlined words in the flavor text hint that we need to spot the missing letters, the added letters, and the changed letters>>",
+      "<<Extract the missing letters, added letters, and changed letters from the message, which are A F T E R, E V E R Y, C O M M A, respectively>>",
+      "<<Notice that the extracted letters spell out AFTER EVERY COMMA, which hints that we need to look at the letters after every comma in the message>>",
+      "<<Extract the letters after every comma in the message, which spell out HOUSE BANISTER>>"
+    ]
+  },
+  {
+    "question": "The rats got into the library and destroyed the books. You put the books back on the shelf, but find the rats have ripped the pages in two, and even eaten some of them. What were they looking for?",
+    "difficulty": "medium",
+    "image": [
+      "test\\6_0.png"
+    ],
+    "solution": "FOODFORTHOUGHT",
+    "steps": [
+      "<<Pair the excerpts -- they are excerpts from the books at the bottom>>",
+      "<<Determine the two letters missing from each pair and assign them to the books below to get the answer>>"
+    ]
+  },
+  {
+    "question": "All I wanted to do is head to a bar, have a drink, solve some puzzles... instead, all of my friends dragged me out dancing. To make matters worse, they've dragged me out to perform the latest dance craze, the P.P. Slide, and I don't remember the steps. There are two pairs of dancers on the dance floor, each facing their partner. Each dancer makes the same movements, relative to the center, at the same time. But which direction to they go, and for how many squares?",
+    "difficulty": "hard",
+    "image": [
+      "test\\7_0.png"
+    ],
+    "solution": "RAPIDLY",
+    "steps": [
+      "<<Treat the lyrics as chess moves, with the number of notes beside the lyrics as the parameters for the move>>",
+      "<<Performt the moves for every person on the board>>",
+      "<<Extract the letters traced out by each dancer>>",
+      "<<Three of them reads LETTERS, RIGHT OF, DANELLE>>",
+      "<<Tracing the letters to the right of Danelle's letters gives the final answer to be \"RAPIDLY\">>"
+    ]
+  },
+  {
+    "question": "The Vex are biological androids running many parallel simula- tions at once. This lets them see how identical paths can produce divergent futures and identify the points that are immutable.",
+    "difficulty": "medium",
+    "image": [
+      "test\\8_0.png"
+    ],
+    "solution": "SLY",
+    "steps": [
+      "<<Notice that each square contains the letters of a nine letter word>>",
+      "<<Sketch/trace a path through each grid to obtain the nine letter word>>",
+      "<<Notice every path corresponds with 2 grids>>",
+      "<<Notice the nine letter words of matching grids have exactly one letter the same in some position>>",
+      "<<Extract the letter and position from each pair of nine letter words to get the clue \"_ LIKE A FOX\">>",
+      "<<Notice the clue points to \"SLY\" as the final answer>>"
+    ]
+  },
+  {
+    "question": "In this international game, the coach of team White discovered a perfect way to assign each of the players to cover an opponent on team Gray, based on the names on the jerseys, but the coach of team Gray decided to mix up the names before the players were inserted in the game. We know that the two goalies go together, and the players can't cross the solidline. Can you determine the original defensive matchups and disocver what the players need in order to score?",
+    "difficulty": "hard",
+    "image": [
+      "test\\9_0.png"
+    ],
+    "solution": "SEPARATIONS",
+    "steps": [
+      "<<Find the correct pairings of players>>",
+      "<<The names of the players are anagrams for the names of different countries>>",
+      "<<The correct pairings and anagrams are given in the figure>>",
+      "<<For each pairing, the shaded jersey contains a number>>",
+      "<<Extract that letter index for the country name in order, and the solution is obtained: 'SEPARATIONS'>>"
+    ]
+  },
+  {
+    "question": "Wake up, sheeple! The REAL Answer to Life, the Universe, and Everything is __not__ 42; it is, in fact, **65**. See for yourself: complete the \"magic square\" below (which I have helpfully started for you) and you'll understand How It All Began!",
+    "difficulty": "easy",
+    "image": [
+      "test\\10_0.png"
+    ],
+    "solution": "SPARK",
+    "steps": [
+      "<<Notice the grid is a magic square, with the sum of rows, columns and diaogonals being 65>>",
+      "<<Fill in the magic square with the correct numbers, Extract the answer by converting the numbers in the bottom row into letters, which yields \"SPARK\">>"
+    ]
+  },
+  {
+    "question": "It's Puzzled Pint's second birthday at the Funhouse Lounge! Remember how we had to cut the night short because of the improv show at 8:30? Let's stick around and watch it this time. There were eight improv skits, each with a different setting suggested by the audience. The performances were scored by a panel of judges. Use the clues below to figure out the skit setting, order, and scores. Once you have completed this task, split the scores to discover what I feel like when I'm trying a new act on stage.",
+    "difficulty": "hard",
+    "image": [
+      "test\\11_0.png"
+    ],
+    "solution": "ETHICAL IMPOSTOR",
+    "steps": [
+      "<<Read through all the given clues about eight improv skits that occurred during the show, each with a different setting and each receiving a different score from the judges>>",
+      "<<Set up a logic grid to track the relationships between the skit order (first through eighth), the setting (Hospital, Karaoke Bar, Nightclub, Pirate Ship, Post Office, Red Carpet, Stadium, and Truckstop), and the scores they received>>",
+      "<<From clue 1, we learn that Red Carpet scored 30 points higher than Hospital and happened before and scored lower than Stadium>>",
+      "<<This gives us several constraints to work with>>",
+      "<<From clue 2, we learn that Truckstop scored 2 points higher than Pirate Ship, adding another relationship>>",
+      "<<Continue working through all ten clues, filling in the logic grid as you eliminate possibilities and confirm placements>>",
+      "<<After solving the logic puzzle, you'll have determined the order, setting, and score for each skit>>",
+      "<<The solution shows: Pirate Ship (65 points), Hospital (15 points), Red Carpet (45 points), Nightclub (7 points), Stadium (57 points), Post Office (12 points), Truckstop (67 points), and Karaoke Bar (53 points)>>",
+      "<<Looking at the scores in order of performance: 65, 15, 45, 7, 57, 12, 67, 53>>",
+      "<<Split each score into its individual digits: 6, 5, 1, 5, 4, 5, 7, 5, 7, 1, 2, 6, 7, 5, 3>>",
+      "<<Each of these digits can be used to index into the alphabet (1=A, 2=B, etc>>",
+      "<<)>>",
+      "<<Converting the digits to letters gives: F, E, A, E, D, E, G, E, G, A, B, F, G, E, C>>",
+      "<<However, this doesn't make a recognizable word>>",
+      "<<Looking at the solution, we need to use the digits differently>>",
+      "<<The correct approach is to arrange the skits in numerical order based on their position in the solution grid: 1=Pirate Ship (65), 2=Hospital (15), and so on through 8=Karaoke Bar (53)>>",
+      "<<Taking the first digit of each score gives: 6, 1, 4, 0, 5, 1, 6, 5>>",
+      "<<Indexing into the alphabet (with 0 treated as a special case), we get: E, T, H, I, C, A, L>>",
+      "<<Similarly, the second digits give: 5, 5, 5, 7, 7, 2, 7, 3>>",
+      "<<Indexing, we get: I, M, P, O, S, T, O, R>>",
+      "<<Combining these two words gives 'ETHICAL IMPOSTOR', which is the final answer to the puzzle>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "easy",
+    "image": [
+      "test\\12_0.png"
+    ],
+    "solution": "LOVEBIRD",
+    "steps": [
+      "<<Notice the title has art italicized, and solve each clue for an answer containing art>>",
+      "<<Fill in the crossword with the answers in the wordbank>>",
+      "<<Extract the answer by taking the letters in the shaded squares, getting the final answer \"LOVEBIRD\">>"
+    ]
+  },
+  {
+    "question": "Louie Lips: Hey Frankie, is the boss really sacking all twelve of us? Frankie the Hound: No Louie, he's just downsizing a bit: getting rid of all the redundancy. Take ANDREW over there for example, and DANIELLO too. Boss says there's too much duplication \u2013 too much fat. He's going to put the squeeze on those two scammers and compress them into a RWILLO. Louie Lips: Huh!? What's a RWILLO? That's not a word; that's not a name! Frankie the Hound: Who cares? He's not going to last long anyway. RWILLO will be crammed together with a LLIDRU to make some grifter named WODU. Louie Lips: Hmm...What do you call that when you take a bunch of swindlers and squeeze them all together into one?",
+    "difficulty": "medium",
+    "image": [
+      "test\\13_0.png"
+    ],
+    "solution": "CONSOLIDATE",
+    "steps": [
+      "<<The puzzle presents twelve clues where each clue has a word or phrase that typically precedes a target word, followed by a word or phrase that typically follows that same target word>>",
+      "<<For example, the first clue is 'BIRD ___(1)___ SALTS'>>",
+      "<<The word that fits in between is 'BATH' (as in 'bird bath' and 'bath salts')>>",
+      "<<Solve all twelve clues (as shown in figure1) to find the missing words: BATH, BOOT, CASE, GUEST, NUT, TAGS, FLAT, FLIGHT, REAL, OPERA, RODS, and GRAPES>>",
+      "<<Enter these words into the grid at the top of the puzzle>>",
+      "<<Then follow the cancellation process mentioned in the flavor text about 'getting rid of redundancy'>>",
+      "<<When two words are combined, any letters they have in common get dropped (similar to how redundancy is eliminated when downsizing)>>",
+      "<<For example, combining BATH and BOOT gives AHOO (keeping only the non-redundant letters in their original order)>>",
+      "<<Continue this process of canceling down and combining words as shown in the diagram, following the connecting lines>>",
+      "<<Eventually, this process yields eleven letters: C, O, N, S, O, L, I, D, A, T, E>>",
+      "<<The numbers beneath these letters indicate their correct order, spelling out CONSOLIDATE>>"
+    ]
+  },
+  {
+    "question": "The shapes are all countries that hosted Puzzled Pint on the 8th anniversary. (As of July 2020, all still host Puzzled Pint.) The ten sets of nonsense letters can be anagrammed into ten of the countries (hinted by \"mixed up\" in the flavortext) \u2014 but different ones than each shape.",
+    "difficulty": "easy",
+    "image": [
+      "test\\14_0.png"
+    ],
+    "solution": "WINTER GHOST",
+    "steps": [
+      "<<Look at the world map showing gray country shapes labeled with numbers and nonsense letter combinations like 'KITED MOUNDING', 'ULTRA ASIA', etc>>",
+      "<<According to the instructions, these nonsense letter combinations can be anagrammed into real country names, but they don't correspond to the shapes they're written on>>",
+      "<<Solve the anagrams to identify the countries>>",
+      "<<For example, 'KITED MOUNDING' \u2192 'UNITED KINGDOM', 'ULTRA ASIA' \u2192 'AUSTRALIA', etc>>",
+      "<<The puzzle also tells us that each country shape on the map represents a real country that hosted Puzzled Pint>>",
+      "<<We need to identify these countries based on their outlines>>",
+      "<<After identifying all countries from shapes and anagrams, we need to create a chain connecting them>>",
+      "<<The solution shows arrows linking countries in a specific sequence: Czech Republic \u2192 Austria \u2192 India \u2192 United Kingdom \u2192 Canada \u2192 Australia \u2192 Slovakia \u2192 Netherlands \u2192 Poland \u2192 South Africa>>",
+      "<<Each country shape has a number beside it>>",
+      "<<Use these numbers to extract letters from the country names>>",
+      "<<For example, Czech Republic has the number 5, so take the 5th letter of 'CZECH REPUBLIC', which is 'H'>>",
+      "<<Following the chain of countries and extracting the corresponding letters gives us: W (from netherLands), I (from slovaKia), N (from uNited kingdom), T (from ausTria), E (from nEtherlands), R (from czech Republic), G (from south africa), H (from czecH republic), O (from pOland), S (from auStralia), T (from canada)>>",
+      "<<Reading these letters in order spells 'WINTER GHOST', which is the final answer>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "hard",
+    "image": [
+      "test\\15_0.png"
+    ],
+    "solution": "BALDERDASH",
+    "steps": [
+      "<<Identify that each color in each line is a Morse code letter>>",
+      "<<Put the dots and dashes of each color in order from left to right>>",
+      "<<Order each line left to right: red, orange, yellow, light green, dark green, light blue, dark blue, violet & pink>>",
+      "<<Each line forms one word>>",
+      "<<The message is 'Embedded answer dwells decode diametric word order edible numeral unmasks aphorism>>",
+      "<<' Identify that the time and date of the puzzle are the first 10 digits of pi>>",
+      "<<Index the first 10 characters into the 10 words>>",
+      "<<For example, the first character of pi is 3>>",
+      "<<Index 3 into the first word, 'embedded,' to get 'B'>>",
+      "<<Repeat for all words to obtain the answer BALDERDASH>>"
+    ]
+  },
+  {
+    "question": "We need a crew of exactly five people for our upcoming raid. In rank order of top-ranked to bottom-ranked, the crew is: a helmsman, a skipper, a holumenn, a journeyman cook, and a bard. We'll be sailing under the mighty flag of VVV (Vikings, Vikings, and more Vikings!) with Thor's mighty hammer emblazoned on the side of our ship for good luck.",
+    "difficulty": "hard",
+    "image": [
+      "test\\16_0.png"
+    ],
+    "solution": "SQUIRRELS",
+    "steps": [
+      "<<The puzzle presents a logic problem where we need to determine which five of nine applicants will be selected for a Viking ship crew>>",
+      "<<The applicants are: Frans the Fast, Slagvi the Slow, Tarr the Tall, Shevi the Short, Lars the Loud, Quig the Quiet, Smidr the Smelly, Haddr the Hairy, and Petronilla the Pale>>",
+      "<<We're given five rules to determine the crew: 1) No crew member's name starts with the same letter as another's, 2) Neither Haddr nor Quig will work under Lars, 3) Petronilla and Lars only applied for helmsman or skipper positions, 4) Haddr and Quig refuse to work together, and 5) Only Frans and Smidr maintain the same positions on both alphabetical and rank-ordered lists>>",
+      "<<Using rule 5, we deduce that Frans must be the helmsman since he would be first alphabetically among all applicants>>",
+      "<<Using rule 3, either Petronilla or Lars must be the skipper>>",
+      "<<Combined with rule 2, Lars cannot be the skipper if Haddr or Quig is on the crew, so Petronilla must be the skipper>>",
+      "<<Since Petronilla and Frans are already in the top two positions, Lars cannot be on the crew>>",
+      "<<Based on rule 4, either Haddr or Quig can be on the crew, but not both>>",
+      "<<Through further deduction, we determine that Haddr makes it onto the crew>>",
+      "<<Applying rule 1 (no duplicate first letters) and working through the remaining constraints, the final crew consists of Frans, Petronilla, Tarr, Smidr, and Haddr>>",
+      "<<For the second part of the puzzle, we need to identify which animals have been eating the ship's cargo by eliminating the letters of the crew members' names (F, P, T, S, H) from the set of letters and unscrambling the remaining 9 letters>>",
+      "<<After eliminating F, P, T, S, and H, the remaining letters unscramble to spell 'SQUIRRELS', which is the final answer>>"
+    ]
+  },
+  {
+    "question": "Chris and Pat are looking for a caterer! They went around to a bunch of local favorites, each keeping a separate list and score. Unfortunately, Pat's a terrible speller and writes everything down phonetically, and Chris has a terrible memory and just writes down whatever comes to mind. Can you figure out where they went?",
+    "difficulty": "medium",
+    "image": [
+      "test\\17_0.png"
+    ],
+    "solution": "GRANDMASTER FLASH",
+    "steps": [
+      "<<Discover each description in Pat's list and Chris' list matches with a restaurant name either phonetically or description wise>>",
+      "<<Solve for the restaraunts using the Chris and Pat's clues>>",
+      "<<Order the restaraunts using Chris and Pat's orders respectively and index into the restaraunts using the scores>>",
+      "<<Chris' list produces \"Large Ruler Flicker\" while Pat's produces \"Grandma Stir Fladge\", which when combined gives \"GRANDMASTER FLASH\">>"
+    ]
+  },
+  {
+    "question": "This new place came with a really sweet security system. Only problem is that the passcode to get in is a real pain to memorize. I know the first button you have to press is the top left, and the last is the bottom right, and you have to press each button exactly once.",
+    "difficulty": "easy",
+    "image": [
+      "test\\18_0.png"
+    ],
+    "solution": "STREETCAR HEROINE",
+    "steps": [
+      "<<See that the arrows in the maze show which blocks can go next>>",
+      "<<Any blocks which lie along the direction the arrow points in is a possible next block>>",
+      "<<Use the logic to figure out the only path through the maze that uses all blocks only once>>",
+      "<<Write out the letters of the blocks in the path that uses all blocks only once to get the answer STREETCAR HEROINE>>"
+    ]
+  },
+  {
+    "question": "As Solstice approaches here in North America, the darkness has overtaken the light. Examine the circles below where \"darkness\" rules over its opposition, the \"light\". In turn, you will discover the ultimate light. Use it to determine the ultimate darkness.",
+    "difficulty": "easy",
+    "image": [
+      "test\\19_0.png"
+    ],
+    "solution": "CHOCOLATE",
+    "steps": [
+      "<<Note each circle of letters contains a word with dark connotation, a word with light connotation, and an extra letter>>",
+      "<<Extract the extra letter from each circle of letters to get the phrase \"NEXT ONE\">>",
+      "<<Extract the next letter from the extra letter in the circle of words to get the word \"VANILLA\">>",
+      "<<Extract the final answer by taking the dark opposite of \"VANILLA\", which is \"CHOCOLATE\">>"
+    ]
+  },
+  {
+    "question": "What a find! Your research has uncovered these excerpts from the obituaries of the Count\u2019s most famous foes and victims. You might have to fill in the gaps to make sense of them. With a little rearrangement, you should be able to gain insight into the Count\u2019s anatomy and appearance.",
+    "difficulty": "easy",
+    "image": [
+      "test\\20_0.png"
+    ],
+    "solution": "WAXY",
+    "steps": [
+      "<<Fill in the words with the right number of letters corresponding to the clued phrases>>",
+      "<<Identify that the words, when put together, are similar to the uppercase names with a few letters leftover>>",
+      "<<The leftover letters in each column can be combined and anagrammed for the four words WHISKEY, ALFA, XRAY, YANKEE>>",
+      "<<Identify that these words all belong to the NATO phonetic alphabet and converting them to letters gives the answer WAXY>>"
+    ]
+  },
+  {
+    "question": "Oh no! You're running late to board game night, and to make matters worse you got lost on the way! Your friend was telling you the directions to the house, but you only had board games on your mind and wrote down this list instead. You somehow glean how to get there anyway. From time to time you stop, noting what street and avenue you're on. It seems like street names are words whereas avenues are letters. You finally arrive, and before you know it the first game is over. How do you know who won?",
+    "difficulty": "easy",
+    "image": [
+      "test\\21_0.png"
+    ],
+    "solution": "COUNTING",
+    "steps": [
+      "<<The puzzle presents a list of 8 statements about board games, followed by a grid showing a path from a start point to an end point, with numbered stops along the way>>",
+      "<<The statements provide clues for navigation>>",
+      "<<Taking the first letter of each word in each statement gives directions: N-N-E-N-E for 'Nemesis nicely employs new editions', and so on for the other statements>>",
+      "<<Following these directions on the grid (where N=North, E=East, S=South, W=West), you move from the start position and stop at certain coordinates, which are marked on the grid with numbers corresponding to each statement (1-8)>>",
+      "<<Each stopping point has coordinates in the form (street, avenue)>>",
+      "<<For example, statement 1 leads to position (2, 3), statement 2 leads to position (1, 4), and so on>>",
+      "<<These coordinates are used as indices into the original statements>>",
+      "<<For statement 1, the 2nd word and 3rd letter is 'c' from 'nicely'>>",
+      "<<For statement 2, the 1st word and 4th letter is 'o' from 'Nobody'>>",
+      "<<Continuing this process for all eight statements yields the letters: c-o-u-n-t-i-n-g>>",
+      "<<The answer 'COUNTING' is appropriate for the context of a board game night, as many board games involve counting points, spaces, cards, etc>>"
+    ]
+  },
+  {
+    "question": "In the Medieval Zone you choose a 'Mental' game. You are led to a dungeon, wherein a famous riddler is held. \"It's very boring in here,\" they say, \"when I'm not being tortured, that is.\" \"So I have a little game,\" they continue, \"I use the dungeon items to create riddles. If you scramble to solve the riddles you'll know my name.\"",
+    "difficulty": "medium",
+    "image": [
+      "test\\22_0.png"
+    ],
+    "solution": "HATTER",
+    "steps": [
+      "<<The first riddle pair describes a RAT that becomes HART (archaic deer)>>",
+      "<<The letter H is extracted>>",
+      "<<The second riddle pair describes a SPIDER that becomes DESPAIR (misery, gloom)>>",
+      "<<The letter A is extracted>>",
+      "<<The third riddle pair describes a RACK (torture device) that becomes TRACK (leaves footprints)>>",
+      "<<The letter T is extracted>>",
+      "<<The fourth riddle pair describes ROPES that become POSTER (displayed on wall)>>",
+      "<<The letter T is extracted>>",
+      "<<The fifth riddle pair describes IRONS (branding tools) that become SENIOR (older)>>",
+      "<<The letter E is extracted>>",
+      "<<The sixth riddle pair describes a CAGE that becomes GRACE (mealtime prayer)>>",
+      "<<The letter R is extracted>>",
+      "<<Reading the extracted letters in order spells HATTER>>"
+    ]
+  },
+  {
+    "question": "There are twelve special characters to find in the unusual word-search below. Just for fun, write your individual names in the 'LEADERBOARD'. Then keep a running score to see who finds the most! It's worth emphasizing; this is just for fun!. (If you are solving this puzzle by yourself, then just write your name on the board; you have a very good chance of winning!)",
+    "difficulty": "easy",
+    "image": [
+      "test\\23_0.png"
+    ],
+    "solution": "UNDERSCORE",
+    "steps": [
+      "<<The puzzle is a word search containing twelve special characters hidden within it>>",
+      "<<The shape of the letters reflect the shape of the character>>",
+      "<<The correct word search solution is given in the solution>>",
+      "<<After locating all twelve special characters, the leftover uncircled letters form a sentence>>",
+      "<<The sentence is: WHOEVER SPOTS THE ONE BELOW THE SCORE WINS IT ALL>>",
+      "<<Observing the leaderboard, the character beneath the score is an underscore>>",
+      "<<Thus, the answer to the puzzle is 'UNDERSCORE'>>"
+    ]
+  },
+  {
+    "question": "As an art thief, you'll need to be a master of adaptation. Here are some situations you may find yourself in. Just add half a scam to each of these situations and you'll find the key to improving as an art thief. No secret ring is required in arming you to decipher the handbook, though the ream of rules may make you scream in frustration.",
+    "difficulty": "medium",
+    "image": [
+      "test\\24_0.png"
+    ],
+    "solution": "FEEDBACK",
+    "steps": [
+      "<<Notice the flavortext want you to add \"sc\" or \"am\" (half of scam) to each italicized word>>",
+      "<<Add \"sc\" or \"am\" to each italicized word to produce a word that fits the clue description>>",
+      "<<Extract the answer by indexing into each transformed italicized word using the second number of the situation descriptor, obtaining \"FEEDBACK\" as the answer>>"
+    ]
+  },
+  {
+    "question": "Given the first line below, place the missing condiments to determine what they all add.\n\nThere are different groups of letters. The minority tend to do all the work following the order of operations, while the majority just stand around waiting to be counted.",
+    "difficulty": "hard",
+    "image": [
+      "test\\25_0.png"
+    ],
+    "solution": "FLAVA",
+    "steps": [
+      "<<Observe from flavortext that vowels function as mathematical operators (A = +, E = -, I = x, O = /, U = ^), while counting number of consonants represents numbers>>",
+      "<<Compute the value for each of the missing condiments and place them to make the equations true>>",
+      "<<Evaluate the vertical expressions and convert from 1-26 to A-Z to get the answer FLAVA>>"
+    ]
+  },
+  {
+    "question": "Out of all the metals, King Midas loves gold the most. When he was granted a wish by the gods, his first thought was to wish for everything he touched to turn to gold. King Midas also enjoys periodically walking on a path through his garden. What is something else that King Midas loves?",
+    "difficulty": "hard",
+    "image": [
+      "test\\26_0.png"
+    ],
+    "solution": "ROSES",
+    "steps": [
+      "<<Fill in the words in each box based on the text clue, giving the following figure Sketch a path through the boxes that contain letters AU, the chemical symbol for gold, which are sAUce, pAUper, AUtomatic, cAUse, exhAUsted, sAUerkrAUt, nAUghty, overhAUl, tAUt, inAUguration, nAUsea, pAUse, AUstralia, thesAUrus, hAUnted Extracting the first letters of the words along the path gives 'SPACES NOT IN PATH'>>",
+      "<<Sketch a path through the non-path answers with AG (silver), which are forAGe, lasAGna, octAGon, wAGe, eAGer, rAGe, stAGe>>",
+      "<<Sketch a path through the non-path answers with CU (copper), which are world CUp, inCUbator, teaCUp, hairCUt>>",
+      "<<Sketch a path through the non-path answers with FE (iron), which are transFEr, half liFE, ofFEnd, reFEree, news FEed, saFE>>",
+      "<<Extracting the first letters of the words along the AG, CU, and FE paths gives 'FLOWERS WITH THORNS'>>",
+      "<<Infer from the combined words'FLOWERS WITH THORNS' to obtain final answer 'ROSES'>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "medium",
+    "image": [
+      "test\\27_0.png",
+      "test\\27_1.png"
+    ],
+    "solution": "DISTRAUGHT",
+    "steps": [
+      "<<Infer that the labels on the capacitors on the bottom of the first page are from left to right, top to bottom: G, J, B, C, A, D, F, I, H, E, K>>",
+      "<<Wire the capacitors together>>",
+      "<<Extract the wire totals: 4, 9, 13, 14, 12, 1, 15, 7, 8, 14>>",
+      "<<Convert each wire total to hexadecimal to get the final answer: DISTRAUGHT>>"
+    ]
+  },
+  {
+    "question": "Macklin is on a mission to recover stolen jewels and blueprints. Using the clues, reconstruct the mansion layout and navigate to the final answer.",
+    "difficulty": "medium",
+    "image": [
+      "test\\28_0.png"
+    ],
+    "solution": "POCKET BREAD",
+    "steps": [
+      "<<Correctly answer the clues in the 'Rows' section of the crossword>>",
+      "<<Correctly fill in the crossword>>",
+      "<<Correctly answer the clues in the 'Rooms' section of the crossowrd Reconstruct the 6x6 mansion grid based on the room layouts by segmenting the letters in the filled in crossword so that the 'Room' section's answer are encapsulated>>",
+      "<<Follow the shortest path through all rooms starting from the southeast corner and ending at the northwest corner>>",
+      "<<Read the path traversed to get the solution: 'POCKET BREAD'>>"
+    ]
+  },
+  {
+    "question": "The Professor is creating a generator and a radio, starting with coconuts (as usual!). He\u2019s adding a variety of materials easily found on the island, using laboratory equipment, and employing various techniques in the manufacturing process. The materials, equipment, and techniques are clued below in alphabetical order. Use those clued words to fill in the chains representing the Professor\u2019s constructions. When you\u2019re done, you\u2019ll find what the Professor is bringing to the December 14 celebration.",
+    "difficulty": "medium",
+    "image": [
+      "test\\29_0.png"
+    ],
+    "solution": "HELIUM BALLOONS",
+    "steps": [
+      "<<Notice that many of the clues are too vague to indicate a specific word>>",
+      "<<Start by propagating letters in the word chains, including from the bottom up, and fill in the chains>>",
+      "<<Extract the circled letters to get the final answer: HELIUM BALLOONS>>"
+    ]
+  },
+  {
+    "question": "Solve to discover what this bonus puzzle is offering you.",
+    "difficulty": "medium",
+    "image": [
+      "test\\30_0.png"
+    ],
+    "solution": "FINAL SPIN",
+    "steps": [
+      "<<Infer the answers to the numbered clues: TRUFFLE, BALTIC, SALEM, ACES, RUNTS, ANTSY, APEMAN, EGRET, LASER GLARE, MACH, GUSTED, ARTSY, PHASE, GATE, GRIFTS, ALBEE, TANGLE, BARELY>>",
+      "<<For the lettered clues: TYLER, ABEL, GOATEE, BLAST, FORGET AGES, AHOYS, TRADE, TOUGH CAMERA, OGRES, ALTER, GENOME, PAYS, TOAST, NURSE, CAMEL ASCOT, LABEL, FOUR>>",
+      "<<Place the answers to the numbered clues clockwise and the answers to the lettered clues counterclockwise>>",
+      "<<Notice that in the nine places where the letters don't match, the counterclockwise letter is always O>>",
+      "<<Write in both letters by circling the clockwise letter>>",
+      "<<Extract the clockwise letters to get the final answer: FINAL SPIN>>"
+    ]
+  },
+  {
+    "question": "Chris! I have this earworm that won't get out of my head! I need to add it to the wedding playlist. Can you help me figure out who sings it?",
+    "difficulty": "medium",
+    "image": [
+      "test\\31_0.png"
+    ],
+    "solution": "WHO NEEDS FRIENDS WHO NEVER S",
+    "steps": [
+      "<<Identify the given phrases as lyrics from popular songs, identify the song and artist associated with each lyric>>",
+      "<<Write the song name and artist in the boxes under each lyric, with the comma given to separate the name and artist>>",
+      "<<Extract each letter and enter them into the grid based on the index pairs under each letter>>",
+      "<<The words formed in the grid are lyrics for another song, I Heard a Rumour by Bananarama>>",
+      "<<Thus, the answer is BANANARAMA>>"
+    ]
+  },
+  {
+    "question": "A festive puzzle themed around the harvest season.",
+    "difficulty": "medium",
+    "image": [
+      "test\\32_0.png"
+    ],
+    "solution": "SELF PORTRAIT",
+    "steps": [
+      "<<Use logic puzzle techniques to place lights in valid positions>>",
+      "<<Each number represents the number of light that are adjacent to it>>",
+      "<<Each light illuminates the entire row and column it is in>>",
+      "<<Moreover, no two candles can illuminate one another Follow the constraints to iterate through possible placements>>",
+      "<<The correct placements are given in the figure>>",
+      "<<Read the letters in cells with a light row by row to find the final answer: SELF PORTRAIT>>"
+    ]
+  },
+  {
+    "question": "Are you lawful, chaotic, or neutral? Good, evil, or neutral? This, that, or the other? And, wait, who's the third member of your party?",
+    "difficulty": "medium",
+    "image": [
+      "test\\33_0.png"
+    ],
+    "solution": "JANET",
+    "steps": [
+      "<<The puzzle presents a 3\u00d73 grid of alignment types (Lawful Good, Neutral Good, etc>>",
+      "<<), each containing short phrases>>",
+      "<<Notice that there are bolded words in each box>>",
+      "<<These words can be paired to form common three-word phrases or expressions>>",
+      "<<The instruction in the solution hints that we need to identify phrases where the bolded words are the first two words, and then find what the third word would be>>",
+      "<<For example, 'silver' and 'lining' form the phrase 'silver lining cloud'; 'bronze' and 'silver' form 'bronze, silver, gold'>>",
+      "<<The complete list of phrases is: 'silver, animal, mineral' (third word starts with M); 'me, myself, I' (third word starts with I); 'life, universe, everything' (third word starts with E); and so on>>",
+      "<<The third words in these phrases start with the letters A through M as hinted in the solution>>",
+      "<<The positions of the first two bolded words in each phrase can be interpreted as semaphore flag positions>>",
+      "<<In semaphore, specific arm positions represent different letters>>",
+      "<<By mapping the relative positions of the paired words, we get semaphore letters>>",
+      "<<Reading these semaphore positions gives us the letters J-A-N-E-T, spelling 'JANET'>>"
+    ]
+  },
+  {
+    "question": "Find the words in the grid below, but then what? The words make a specific shape, and the remaining letters guide you toward the answer.",
+    "difficulty": "medium",
+    "image": [
+      "test\\34_0.png"
+    ],
+    "solution": "COMMAND",
+    "steps": [
+      "<<Locate all the given words in the letter grid>>",
+      "<<Observe that the words form the shape of an 'et' (ampersand)>>",
+      "<<Read the remaining letters, spell: SEE LETTERS AT INTERSECTIONS OR ENDS>>",
+      "<<DRAW LINES BETWEEN GUIDED BY NONSENSE>>",
+      "<<DRAW NEW LETTERS>>",
+      "<<SPELL NEW WORDS>>",
+      "<<Rearrange the drawn in letters to spell the final answer: COMMAND>>"
+    ]
+  },
+  {
+    "question": "The Newport Beach Chamber of Commerce is reviewing an application for the reincorporation of the Bluth's Original Frozen Banana stand. Can you decode their response?",
+    "difficulty": "easy",
+    "image": [
+      "test\\35_0.png"
+    ],
+    "solution": "Reunited",
+    "steps": [
+      "<<Look at the first letter of each sentence to reveal a hidden message: MORSE CODE PUNCTUATION>>",
+      "<<Turn commas to dots and hyphens to dashes to decipher the solution: REUNITED>>"
+    ]
+  },
+  {
+    "question": "The Ood are such a visually surprising race that they would make hipsters jealous. Happily, they are not so snobby and are usually helpful. In order to not give you an overwhelming task, the Ood are testing you to see if you are ready to face this new challenge. If you can\u2019t see the answer, you\u2019ll need to look at things from a different angle, incidentally, at the end of this challenge",
+    "difficulty": "easy",
+    "image": [
+      "test\\36_0.png"
+    ],
+    "solution": "VAMPIRE",
+    "steps": [
+      "<<Only look at the odd numbered circles (the ood circles)>>",
+      "<<They form four rows of Braille>>",
+      "<<The braille on the last line is reflected along the vertical axis as clued by the first three words, to get the answer>>"
+    ]
+  },
+  {
+    "question": "Seven soccer players, Abby, Briana, Cristiano, Diego, Essam, Fernando, and Gina, are comparing their soccer cleats. Each of them is wearing footwear with 5 cleats in a row, but some cleats are white, and some are black. Can you figure out each player's unique pattern and determine what they are trying to avoid?",
+    "difficulty": "medium",
+    "image": [
+      "test\\37_0.png"
+    ],
+    "solution": "PENALTY",
+    "steps": [
+      "<<Each player has a unique cleat pattern, containing 1, 2, or 3 black cleats, and the rest white cleats>>",
+      "<<The players also have unique uniform numbers from 1 to 7>>",
+      "<<From clue 4 and clue 6, we can deduce that Briana is number 7 and has three black cleats>>",
+      "<<From clue 10, we know that two of those black cleats are on the left>>",
+      "<<Therefore, the other black cleat must be on the right>>",
+      "<<From clue 9, 4, and 14, Abby's cleat pattern is determined to be white, black, black, black, white since that is the only pattern with three black cleats in a row that can be its own mirror image>>",
+      "<<We also know that Abby must be number 3>>",
+      "<<Since Abby is player 3, we know that from clues 11 and 16 that Essam is player 1>>",
+      "<<From clues 7 and 8 and 12, we know that he has cleat pattern black, white, white, white, white>>",
+      "<<Since Gina is #4 and has the mirror image of Essam's cleat pattern, from clues 3 and 12, her cleat pattern must be white, white, white, white, black>>",
+      "<<From clue 5 and 16, we know that Cristiano must be player 2>>",
+      "<<From clue 13 and 5, we know that his cleat pattern is white, white, black, white, black>>",
+      "<<Since only jerseys 5 and 6 are left, and diego is not 5 from clue 13, we know that Diego must be player 6>>",
+      "<<From clue 5, we know that his pattern is black, white, black, white, white>>",
+      "<<Fernando must be player 6>>",
+      "<<He must only have 2 black cleats, from clue 4 and 7>>",
+      "<<His pattern is white, black, black, white, white>>",
+      "<<The cleat pattern for each jersey is a number in binary that maps to a letter from 1-26>>",
+      "<<When translated, the solution is spelled out: 'PENALTY'>>"
+    ]
+  },
+  {
+    "question": "A great taco is like a killer sudoku cage: you can identify the ingredients that combine together to make a specific recipe. Truly killer tacos come from understanding each ingredient top to bottom and putting those ingredients together in the appropriate order.",
+    "difficulty": "hard",
+    "image": [
+      "test\\38_0.png"
+    ],
+    "solution": "LIME WEDGES",
+    "steps": [
+      "<<Identify puzzle as a sudoku puzzle>>",
+      "<<Numbers in the grid outlined rectangles should sum to the number on the top right of each outlined rectangle>>",
+      "<<Place numbers in each grid square while satisfying these rules>>",
+      "<<Extract the words associated with each number in the sudoku>>",
+      "<<Words from grids with the number 1 extract to form the sentence: 'CREAM TYPE USED FOR TEX MEX CUISINE', words from grids squares with the number 2 form 'MIGHT COME FROM BLUE PLUS YELLOW', words from number 3 squares form 'NETFLIX HIT SCI-FI SHOW SECOND WORD', words from number 4 squares form 'HOW TOES FEEL IN TIGHT SHOES', words from number 5 squares form 'WORD FOllOWING GAME AFTER LAST LIFE'>>",
+      "<<words from number 6 squares form 'SUBJECT OF PUZZLE PACKET CURRENTLY HELD'>>",
+      "<<Each of the clue phrases extracted in the previous step allude to a word>>",
+      "<<In numerical order, the words are 'SOUR', 'GREEN', 'THINGS', 'SQUEEZED', 'OVER', 'TACOS'>>",
+      "<<The clue of 'SOUR GREEN THINGS SQUEEZED OVER TACOS' alludes to the solution, 'LIME WEDGES'>>"
+    ]
+  },
+  {
+    "question": "In Wingspan, you own a bird aviary and try to collect the birds that will earn you the most victory points (VPs). Once, while playing a game, your board got knocked over and all your bird cards fell out of order. Fortunately, you remembered some things about the correct arrangement of the cards. Note: by 'adjacent' is meant only horizontal or vertical contiguity.",
+    "difficulty": "hard",
+    "image": [
+      "test\\39_0.png"
+    ],
+    "solution": "INCUBATE",
+    "steps": [
+      "<<The puzzle presents 8 bird cards that need to be arranged in a 2\u00d74 grid following specific rules about their placement>>",
+      "<<The birds are: American Robin, Barn Swallow, Bewick's Wren, Chipping Sparrow, Eastern Screech Owl, House Finch, Lincoln's Sparrow, and Pileated Woodpecker>>",
+      "<<Rule 1 states the birds form a rectangle that is 2 birds wide and 4 birds high, so we need to arrange them in a 2\u00d74 grid>>",
+      "<<Rule 2 tells us the bird that doesn't eat invertebrates was in the left column>>",
+      "<<Looking at the diets, Eastern Screech Owl and Pileated Woodpecker are the only birds that don't have invertebrates in their diet, so one of them must be in the left column>>",
+      "<<Rule 3 states each bird with a cavity nest was directly below a bird with a bowl nest>>",
+      "<<The birds with cavity nests are Bewick's Wren, Eastern Screech Owl, and Pileated Woodpecker>>",
+      "<<The birds with bowl nests are American Robin, Chipping Sparrow, and House Finch>>",
+      "<<Rule 4 says birds in the third row had exactly the same habitats>>",
+      "<<Looking at the bird cards, birds with matching habitats need to be placed in the third row>>",
+      "<<Continuing through the rules about fruit-eating birds (Rule 5), first row nest types (Rule 6), ground nest placement (Rule 7), and column restrictions for American Robin and Eastern Screech Owl (Rule 8), systematically place all birds in the correct positions>>",
+      "<<After placing all birds correctly, you'll notice the pattern of dots on the cards forms Braille symbols>>",
+      "<<Reading the Braille message gives the instruction 'USE VPS AS INDEX ORDER BY WINGSPAN'>>",
+      "<<Following this instruction, first sort the birds by wingspan (from shortest to longest): Bewick's Wren (18cm), Lincoln's Sparrow (20cm), Chipping Sparrow (23cm), House Finch (25cm), Barn Swallow (38cm), American Robin (43cm), Eastern Screech Owl (51cm), Pileated Woodpecker (74cm)>>",
+      "<<Then use each bird's VP value as an index to that bird's name>>",
+      "<<The VP values are 4, 3, 1, 3, 1, 1, 4, 4 respectively>>",
+      "<<Taking the 4th letter of 'Bewick's Wren', the 3rd letter of 'Lincoln's Sparrow', etc>>",
+      "<<, gives the letters I-N-C-U-B-A-T-E, spelling 'INCUBATE'>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "medium",
+    "image": [
+      "test\\40_0.png"
+    ],
+    "solution": "CHRONOLOGY",
+    "steps": [
+      "<<Solve each crossword clue given>>",
+      "<<Manipulate/cross out rectangles that have the text in some crossword clue>>",
+      "<<Extract the remaining letters, which reads \"FOURTH LETTERS\">>",
+      "<<Extract the fourth letters of the crossword answer to get the final answer, \"CHRONOLOGY\">>"
+    ]
+  },
+  {
+    "question": "\"The Great British Baking Show\" features glimpses into the contestants' daily lives, which often include friends and family. It's a way for viewers to learn more about their favorite bakers. One baker, Hiro, loves visiting his long-distance girlfriend (Alice) and bringing her all kinds of sweets. He's concerned, though, that he'll be eliminated from the show soon. Hiro has been sending Alice several worried letters. \"Sounds like I'm going to be leaving the tent before too long,\" he wrote in his first note. Alice mailed back one of his letters and added a puzzle to cheer him up. She also included this note: \"There are more letters coming, even more than you might expect. Keep listening for the postman. And maybe you aren't sure how to fill that empty space, deep down in your heart. Just read your letter aloud to yourself, and keep looking up. And then you'll find a way to fill that void. I know you can impress the judges. You just need\u2026\"",
+    "difficulty": "medium",
+    "image": [
+      "test\\41_0.png"
+    ],
+    "solution": "MORE THYME",
+    "steps": [
+      "<<The puzzle contains clues with blanks to fill in>>",
+      "<<Solving these clues gives the words 'WHY', 'TERNS', 'TOO', and 'EM'>>",
+      "<<When read aloud, this sounds like 'Y turns to M'>>",
+      "<<Following the instruction 'Y turns to M', write 'M' above the letter 'Y' in the blanks at the bottom of the puzzle>>",
+      "<<Alice's note mentions 'more letters' and 'keep listening', suggesting there are words in Hiro's letter that sound like letters of the alphabet>>",
+      "<<Find these homophones in the letter: 'you' sounds like 'U', 'are' sounds like 'R', 'see' sounds like 'C', 'ex' sounds like 'X', 'be' sounds like 'B', and 'tea' sounds like 'T'>>",
+      "<<The phrase 'keep looking up' instructs to look at the blank space above each of these words in the letter>>",
+      "<<The letters appearing above these homophones are: 'H' above 'you' (U), 'Y' above 'are' (R), 'T' above 'see' (C), 'R' above 'ex' (X), 'O' above 'be' (B), and 'E' above 'tea' (T)>>",
+      "<<Combined with 'M' above 'Y' at the bottom, these letters spell 'MORE THYME', which is the baking ingredient Hiro needs to impress the judges and is a play on words with 'more time' that he wishes he had in the competition>>"
+    ]
+  },
+  {
+    "question": "The A-Team was able to break out of a prison. How? Ingenuity. The A-Team is notorious for being able to forge a couple of items together with simple hardware. Connect items in the left hand column with items in the right hand column using common hardware items. Shown below is the schematics the police were able to find on the wall when they looked in their cells. Putting it all in place will reveal information about the team.",
+    "difficulty": "medium",
+    "image": [
+      "test\\42_0.png"
+    ],
+    "solution": "WANTED",
+    "steps": [
+      "<<Notice that each clue on the left of the puzzle connects to a clue on the right side of the puzzle with a common word>>",
+      "<<The common word is always tool related>>",
+      "<<Connect the dots of the pairs that share a common word, and overlay these lines on the jail bars>>",
+      "<<Observe that it spells the answer WANTED>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "medium",
+    "image": [
+      "test\\43_0.png"
+    ],
+    "solution": "BACON",
+    "steps": [
+      "<<Notice that some of the texts include lists of object, and only object in the list is orange, which is also the carrier wavelength>>",
+      "<<Extract the first letter of each orange object to get the final answer \"BACON\">>"
+    ]
+  },
+  {
+    "question": "One groundbreaking aspect of HAMILTON is its **colorful** cast, which features black and Latino actors playing the founding fathers of America. Another is the creative way it incorporates popular music\u2014unlike the terrible \u201cjukebox show\u201d we're proposing below. Match up each song with its artist to learn which multilingual performer we can **count** on to bring some class to this production (working title: Neon!).",
+    "difficulty": "easy",
+    "image": [
+      "test\\44_0.png"
+    ],
+    "solution": "CELINE",
+    "steps": [
+      "<<Sketch/match each song title with its corresponding artist, and sketch a line between them>>",
+      "<<Notice the number of notes that each sketched line traces over, and index into the artist using the number>>",
+      "<<Manipulate/rearrange the indexed letters using the order of the rainbow and the colors indicated in its associated song>>",
+      "<<Extract the final answer by reading out the rearranged letters, which gives \"CELINE\">>"
+    ]
+  },
+  {
+    "question": "You went by the cat cafe three times in one day, morning, noon, and afternoon. Each time, you stopped and looked at the cats through the window. There were !fteen cats, with zero, one, or two cats at each location. Early in the day, some cats were hiding where you couldn't see them. But the cats you could see gave you an idea. The third time, you decided to go into the cafe. What did you get when you went in?",
+    "difficulty": "hard",
+    "image": [
+      "test\\45_0.png",
+      "test\\45_1.png"
+    ],
+    "solution": "HOUSE PANTHER",
+    "steps": [
+      "<<Infer that 'hiding' means 'off-screen' and does not count as a location>>",
+      "<<'in the house' is different from 'hiding'>>",
+      "<<Infer that 'Got more popular during the day' means a pattern of 0-1-2>>",
+      "<<'Got less popular' means a pattern of 2-1-0 where the numbers are the number of cats at a given location for each time of the day>>",
+      "<<Place all the cats in the appropriate location by inferring that 'hiding' means 'off-screen' and does not count as a location>>",
+      "<<'in the house' is different from 'hiding'>>",
+      "<<Additionally Once all cats are placed, each location will have a set of 3 numbers from 0 to 2>>",
+      "<<Convert the numbers from ternary to letters and read the letters left to right to get the answer: HOUSE PANTHER>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "easy",
+    "image": [
+      "test\\46_0.png"
+    ],
+    "solution": "CIRCUMNAVIGATE",
+    "steps": [
+      "<<Find the clued word from each clue>>",
+      "<<In order, the across words are: ARGENTINA, ARGON, ARCHITECT, ARBYS, ARDUOUS, ARBITRATION, ARTICHOKE, ARTILLERY, ARTIFICAL INTELLIGENCE, ARGUMENT, ARTERIOSCLEROSIS, ARCTIC, ARMINSHIMERMAN, ARBOR DAY, ARTHRITIS>>",
+      "<<The down words are: ARK OF THE CONVENANT, ARCHDUKE FRANZ FERDINAND, ARCADE, ARITHMETIC, ARC REACTOR, ARPEGGIO, ARMENIA, ARBALEST, ARCHERY, ARSE, ARTEMIS, ARDUINO, ARSENIC, ARGONAUTS, NAVY Fill in the crossword grid and remove the A from the beginning of each word>>",
+      "<<Following the path given on the crossword, extract each letter the path crosses to spell the solution: CIRCUMNAVIGATE>>"
+    ]
+  },
+  {
+    "question": "Hoggle, if she ever kisses you, I'll turn you into a prince...Prince of the Land of Stench.",
+    "difficulty": "hard",
+    "image": [
+      "test\\47_0.png"
+    ],
+    "solution": "AVOID SPHERES",
+    "steps": [
+      "<<Complete the crossword using the key to the left The numbers in parethesis indicate the length of the word(s) that answer the hint>>",
+      "<<Identify the remaining unused letters in the grid>>",
+      "<<Identify that every letter in row major order of the crossword corresponds to single word in the paragraph to the right>>",
+      "<<Map each uncovered letter to its same-index word in the paragraph to fill in the blanks below>>",
+      "<<Use the filled in blanks on the left side of the arrows to identify the word they describe on the right side of the arrow>>"
+    ]
+  },
+  {
+    "question": "The local paper is featuring a new comic strip about three rascally elves \u2014 Al, Bob & Carl. But this week's panels got all mixed up! Your job: arrange the panels back into five strips of five panels each \u2014 you'll have a 5x5 square \u2014 and use the result to figure out what every elf is most proud of.",
+    "difficulty": "medium",
+    "image": [
+      "test\\48_0.png"
+    ],
+    "solution": "EAR",
+    "steps": [
+      "<<Rearrange the comic strip so that the storyline makes sense>>",
+      "<<Notice that the first letter of each word in the green boxes spells \"EACH ROW'S FIRST SPOKEN WORD\">>",
+      "<<Notice that the first spoken word of each comic strip spells \"TRACE APPEARANCES OF EACH ELF\">>",
+      "<<Determine which elf is which based on the storyline text>>",
+      "<<Extract the final answer by tracing the squares in which each elf appears, giving the final answer \"EAR\">>"
+    ]
+  },
+  {
+    "question": "Find pairs that make clues. Then mix up each clue\u2019s letters to uncover the hidden message.",
+    "difficulty": "hard",
+    "image": [
+      "test\\49_0.png"
+    ],
+    "solution": "FLOTSAM",
+    "steps": [
+      "<<Pair the provided words to create meaningful phrases>>",
+      "<<Recognize 'and' in latin is 'et'>>",
+      "<<Remove an 'e' and a 't' from each meaningful phrase>>",
+      "<<Anagram the remaining letters of each phrase to form new words>>",
+      "<<Place the newly constructed words into the blanks that correspond with their synonyms>>",
+      "<<Extract the circled letters, which spell 'SOFT METAL'>>",
+      "<<Remove an 'e' and a 't' from SOFT METAL and annagram this result (SOFTMAL): FLOTSAM>>"
+    ]
+  },
+  {
+    "question": "In addition to her spiritfarer duties, Stella sometimes assists spirits who live in towns and islands. She goes to an island looking for a sidequest, where there is a line of spirits waiting for the ice cream shop to open. She checks if each spirit needs any help. She notices that as she moves from the front to the back of the line, there is a pair of spirits standing next to each other that somehow show up again later down the line. The pattern is ...123...423...",
+    "difficulty": "hard",
+    "image": [
+      "test\\50_0.png"
+    ],
+    "solution": "SHENANIGANS",
+    "steps": [
+      "<<Read through the 11 clues that describe different tasks Stella is asked to perform>>",
+      "<<Each task will lead to a two-word answer that follows the pattern mentioned in the flavor text>>",
+      "<<For clue 1, identify that a seafood restaurant chef asking for fishing help with 'indirect suggestions' leads to the answer 'FISHING HINTS'>>",
+      "<<For clue 2, 'refining iron with heat' and 'hammering and forging' leads to 'SMELTING SMITHING'>>",
+      "<<Continue solving each clue to get all answers: 'LAST SEAS', 'ELEPHANT NANNY', 'PLATFORM ART FORM', 'SNOWY TOWERS', 'SALMON POTION', 'SCARY GARMENTS', 'ORDERS ORCHARDS', 'CHICKEN HICCUPS', and 'SOME LOOMS'>>",
+      "<<Notice that each answer has a repeated sequence of letters that matches the pattern '>>",
+      "<<123>>",
+      "<<423>>",
+      "<<'>>",
+      "<<For example, in 'FISHING HINTS', the 'IN' appears in positions 4-5 and then again in positions 8-9>>",
+      "<<For each answer, identify the letters that come before each occurrence of the repeated sequence>>",
+      "<<In 'FISHING HINTS', these are 'S' before the first 'IN' and 'H' before the second 'IN'>>",
+      "<<The flavor text hints at a pattern of 1,2,3 appearing and then 4,2,3 appearing>>",
+      "<<This suggests a rule: look at the original clue text and if 'one' appears in it, take the left letter; if 'four' appears, take the right letter>>",
+      "<<Apply this rule to each answer>>",
+      "<<Clue 1 mentions 'One seafood restaurant', so take 'S' from FISHING HINTS>>",
+      "<<Clue 2 mentions 'four carts', so take 'H' from SMELTING SMITHING, and so on>>",
+      "<<Continuing this process for all clues gives: S, H, E, N, A, N, I, G, A, N, S, which spells 'SHENANIGANS'>>"
+    ]
+  },
+  {
+    "question": "While in the Kingdom of Wisdom, Milo stumbled upon a man named Gil acting rather fishy near a pond. He called out to the man to ask what he was doing. \"It's quite simple, my boy,\" he began. \"My townspeople have rejected me and thrown me out. So, I cast nine times into the pond, each at a given length of line to see if I could catch some fish. I intend to give my neighbors a piece of herring.\" With that, the water churned as all the fish scrambled to bite the hooks, not once crossing lines with each other. Strangely, Milo noticed that the lines turned at right angles; he thought to himself, \"Aha, Gil must be an angler!\" Milo helped Gil reel in one fish per side before returning to the other. Each and every line snapped in their combined effort, and when they had lost all 9 fish back to the pond, Gil fell to the grass exhaustedly. Milo found a stick and wrote the letters he'd seen in the dirt. \"It's no use! With no way to restring the poles, I've nothing to get my revenge!\" Gil began to sob, and revealing his true intentions. When he finished, Milo looked in surprise at what he had written. What did even the fish realize Gil was?",
+    "difficulty": "medium",
+    "image": [
+      "test\\51_0.png"
+    ],
+    "solution": "OUT OF LINE",
+    "steps": [
+      "<<Look at the pond with fishing lines and fish>>",
+      "<<Each fish contains a syllable or affix>>",
+      "<<Notice that the fishing poles have numbers on them, suggesting a specific order to read the fish>>",
+      "<<Follow the fishing lines that form right angles (like an 'angler') through the grid, connecting to the fish in numerical order>>",
+      "<<The fish contain the following syllables in order: RE, AD, OU, TRI, GHT, FA, CIN, GF, ISH>>",
+      "<<When these syllables are properly grouped, they spell 'READ OUT RIGHT FACING FISH' which is a instruction>>",
+      "<<Reading the right-facing fish in order gives us the syllables that form 'OUT OF LINE', which is the solution>>",
+      "<<This is also a pun - Gil was literally 'out of line' (having no fishing line left) and figuratively 'out of line' (inappropriate) with his revenge plans>>"
+    ]
+  },
+  {
+    "question": "A good reporter needs to be able to locate a good story, read between the lines, and have an instinct for filling in captions and headlines\u2026 Q: What\u2019s a good treat to eat on the \u25a1\u25a1\u25a1\u25a1\u25a1 end? A: An ice cream SUNDAE. Q: What flies \u25a1\u25a1\u25a1\u25a1\u25a1\u25a1 the kindergarten classroom at night? A: The alpha-BAT. Q: What\u2019s black and white, black and white, black and \u25a1\u25a1\u25a1\u25a1? A: A penguin rolling down the hill. When I took my school-age daughters to a lunch with \u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1s, I told them to ask questions. One of the men said he\u2019d fought in the Korean War, and the girls were so impressed that the eldest wanted to know more: \u201cDid you fight for the North or the South?\u201d Two little boys were playing together when a cute, curly-haired girl walked by. One kid said: \u201cYou know something? When I stop hating \u25a1\u25a1\u25a1\u25a1\u25a1 , I think I\u2019ll stop hating that one first!\u201d Q: Why did the \u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1 study in an airplane? A: Because they wanted higher grades. \u25a1\u25a1\u25a1\u25a1\u25a1\u25a1 what? What? Chicken butt.",
+    "difficulty": "easy",
+    "image": [
+      "test\\52_0.png"
+    ],
+    "solution": "WRITING",
+    "steps": [
+      "<<Identify that based on the theme of the puzzle, it requires finding out news stories that contain the photos>>",
+      "<<Each photo\u2019s news article contains a key word with the right number of letters that can be filled into the blank in the question, giving the desired answer>>",
+      "<<The words, in order, are week, around, white, veteran, girls, students, and guess>>",
+      "<<Extract the letters in boxes to obtain the letters W R I T I N G which gives the answer WRITING>>"
+    ]
+  },
+  {
+    "question": "Lady Meow Meow is Anna Winpurr's special guest at this year's Meowt Gala. She's taking the responsibility seriously, placing pawpurrazzi all around the museum to ensure coverage from every angle. Read the floor tiles of their locations to figure out her gift to you.",
+    "difficulty": "medium",
+    "image": [
+      "test\\53_0.png",
+      "test\\53_1.png"
+    ],
+    "solution": "CAMERA",
+    "steps": [
+      "<<The puzzle presents a grid where we need to place 'pawpurrazzi' (photographers) following specific rules>>",
+      "<<According to the rules, pawpurrazzi can be placed in any white squares>>",
+      "<<Numbers on black squares indicate how many pawpurrazzi are adjacent to that square (horizontally or vertically)>>",
+      "<<Each pawpurrazzi illuminates in straight lines horizontally and vertically until hitting a black square or the edge of the grid>>",
+      "<<Every white square must be illuminated, and no pawpurrazzi can be in another's flashbulb path>>",
+      "<<Starting with the obvious placements based on the number constraints (especially zeros, which mean no adjacent pawpurrazzi), we can begin filling in the grid>>",
+      "<<For example, squares adjacent to a '0' cannot contain pawpurrazzi, while squares adjacent to a '3' likely need multiple pawpurrazzi around them>>",
+      "<<Working through the constraints logically, we determine the only possible configuration of pawpurrazzi on the grid>>",
+      "<<When correctly placed, the letters in the squares where pawpurrazzi are located spell out 'WHAT A PHOTOGRAPHER TAKES PHOTOS WITH'>>",
+      "<<This clue directs us to the answer: 'CAMERA', which is what photographers use to take photos>>"
+    ]
+  },
+  {
+    "question": "A series of crossword-style clues lead to a hidden message. By extracting and rearranging key elements, the final solution emerges.",
+    "difficulty": "hard",
+    "image": [
+      "test\\54_0.png"
+    ],
+    "solution": "ALPHA",
+    "steps": [
+      "<<Unscramble the words in the Jumble mini game>>",
+      "<<Notice that the five words they give you to fill in in the 'down' section of the crossword are invalid>>",
+      "<<Correctly replace the 5 given words in the 'down' section of the crossword with their synonyms found in the Jumble mini game>>",
+      "<<Solve the given crossword puzzle>>",
+      "<<Extract the letters contained in the hearts, diamonds, or circles in the jumble puzzle to fill in the blank phrase that judge declared (keyed by the same shapes)>>",
+      "<<This should spell: CROSS YOU HEARTS>>",
+      "<<Allign the words in the jumble puzzle with their synonyms given by the 'down' column of the crossword>>",
+      "<<Extract the letters from jumble puzzle's words synonyms whom allign with the index of their counterpart's 'hearts' location>>",
+      "<<e>>",
+      "<<g>>",
+      "<<if CRUSH is lined up with SMASH, the letter 'U' is encapsulated in a heart, thus 'A' from SMASH is extracted>>",
+      "<<The final extracted letters from the jumble puzzle should spellthe solution: ALPHA>>"
+    ]
+  },
+  {
+    "question": "",
+    "difficulty": "easy",
+    "image": [
+      "test\\55_0.png"
+    ],
+    "solution": "DOUGH",
+    "steps": [
+      "<<For each group of four words, find a fifth word that can go in the middle to make four phrases or compound words>>",
+      "<<The new phrases and words will all read left-to-right>>",
+      "<<The following page shows these words on a yellow background>>",
+      "<<WHITE fits between Snow, Collar, Off, and Wash, forming: Snow White, White Collar, Off White, White Wash>>",
+      "<<KNIFE fits between Jack, Pocket, Edge, and Point, forming: Jackknife, Pocket Knife, Knife Edge, Knife Point>>",
+      "<<HEALTH fits between Public, Care, Mental, and Club, forming: Public Health, Health Care, Mental Health, Health Club>>",
+      "<<SHELL fits between Bomb, Fish, Clam, and Shock, forming: Bombshell, Shellfish, Clamshell, Shell Shock>>",
+      "<<CORN fits between Pop, Meal, Flakes, and Pepper, forming: Popcorn, Cornmeal, Corn Flakes, Peppercorn>>",
+      "<<STICK fits between Lip, Shift, Chop, and Ball, forming: Lipstick, Stick Shift, Chopstick, Stick Ball>>",
+      "<<BUTTER fits between Peanut, Cup, Cocoa, and Fly, forming: Peanut Butter, Buttercup, Cocoa Butter, Butterfly>>",
+      "<<CASE fits between Book, Load, Pillow, and Worker, forming: Bookcase, Case Load, Pillowcase, Case Worker>>",
+      "<<SUGAR fits between Cane, Plum, Brown, and Coat, forming: Sugarcane, Plum Sugar, Brown Sugar, Sugar Coat>>",
+      "<<JAR fits between Bell, Head, Mason, and Lid, forming: Bell Jar, Jarhead, Mason Jar, Jar Lid>>",
+      "<<PAPER fits between Sand, Tiger, Wall, and Back, forming: Sandpaper, Paper Tiger, Wallpaper, Paperback>>",
+      "<<BAND fits between Arm, Saw, Brass, and Camp, forming: Armband, Bandsaw, Brass Band, Band Camp>>",
+      "<<SHEET fits between Spread, Rock, Music, and Bed, forming: Spreadsheet, Sheet Rock, Music Sheet, Bed Sheet>>",
+      "<<FORTUNE fits between Small, Teller, Good, and Hunter, forming: Small Fortune, Fortune Teller, Good Fortune, Fortune Hunter>>",
+      "<<PAGE fits between Home, Number, Front, and Turner, forming: Homepage, Page Number, Front Page, Page Turner>>",
+      "<<WONDER fits between No, Bra, Small, and Drug, forming: No Wonder, Wonder Bra, Small Wonder, Wonder Drug>>",
+      "<<The sixteen words you generated in step 1 are in four groups, so repeat the process>>",
+      "<<For each group of four words, find a word that can go in the middle to make four phrases or compound words>>",
+      "<<The following page shows these words on a green background>>",
+      "<<BREAD fits between White, Knife, Corn and Stick, forming: White Bread, Bread Knife, Cornbread, Breadstick>>",
+      "<<NUT fits between Health, Shell, Butter and Case, forming: Health Nut, Nut Shell, Butternut, Nutcase>>",
+      "<<COOKIE fits between Sugar, Jar, Fortune, Sheet, forming: Sugar Cookie, Cookie Jar, Fotune Cookie, Cookie Sheet>>",
+      "<<BOY fits between Paper, Band, Page and Wonder, forming: Paper Boy, Boy Band, Page Boy, Wonder Boy Using the four words you generated in step 2, repeat the process one more time>>",
+      "<<One word can go in the middle to make four phrases or compound words>>",
+      "<<DOUGH fits between Bread, Nut, Cookie and Boy, forming: Bread Dough, Doughnut, Cookie Dough and Doughboy>>",
+      "<<So the final word is the answer: DOUGH>>"
+    ]
+  },
+  {
+    "question": "In chess your king can move in any direction - but only one square at a time (horizontally, vertically, or diagonally). There are some common scenarios that any good chess player should know. To help you remember, I've spelled them out on the board below. I've also listed them beneath\u2026 well, what I can remember of them anyway! Just remember, each tile is used once at most! Whether you're playing as black or white, these simple lessons will show you where to look.",
+    "difficulty": "hard",
+    "image": [
+      "test\\56_0.png"
+    ],
+    "solution": "ROOK",
+    "steps": [
+      "<<The puzzle presents us with an 8x8 grid of letters and a list of partial words to complete, like 'C _ _ L', 'C _ _ W', etc>>",
+      "<<We're told each tile is used at most once, suggesting this is similar to a word search but with a twist>>",
+      "<<First, let's try to complete the words based on the given patterns>>",
+      "<<Looking at the hint 'Whether you're playing as black or white, these simple lessons will show you where to look,' we can infer that we need to think about colors>>",
+      "<<Let's try to identify what the words might be>>",
+      "<<'C _ _ L' could be 'COAL' (which is black)>>",
+      "<<'C _ _ W' could be 'CROW' (black)>>",
+      "<<'_ _ K' could be 'INK' (black)>>",
+      "<<'_ B _ _ _ _ _ _' could be 'OBSIDIAN' (black)>>",
+      "<<Continuing this pattern: '_ _ Y _' could be 'ONYX' (black), 'P _ _ _ H _ _' could be 'PANTHER' (black), 'D _ V _' could be 'DOVE' (white), '_ G _' could be 'EGG' (white), '_ _ L K' could be 'MILK' (white)>>",
+      "<<Completing the rest: 'M _ _ N' could be 'MOON' (white), '_ _ _ R L' could be 'PEARL' (white), 'S N _ _' could be 'SNOW' (white)>>",
+      "<<Looking at our completed words, they form two categories: dark/black items (COAL, CROW, INK, OBSIDIAN, ONYX, PANTHER) and light/white items (DOVE, EGG, MILK, MOON, PEARL, SNOW)>>",
+      "<<Now, we need to find these words in the grid>>",
+      "<<Since this is The King's Walk, and kings move one square at a time in any direction, the words don't have to be in straight lines>>",
+      "<<We can move horizontally, vertically, or diagonally to trace each word>>",
+      "<<After finding all the words in the grid, we notice that the black/dark words all trace a specific pattern of cells>>",
+      "<<If we highlight only these cells (the ones used for COAL, CROW, INK, OBSIDIAN, ONYX, PANTHER), they form the shape of the letters 'ROOK'>>",
+      "<<Therefore, our answer is 'ROOK'>>"
+    ]
+  },
+  {
+    "question": "The game Simon is all about remembering how the colors link together and knowing what comes next.",
+    "difficulty": "medium",
+    "image": [
+      "test\\57_0.png"
+    ],
+    "solution": "THE RAINBOW CONNECTION",
+    "steps": [
+      "<<Each clue solution has two parts: a phrase that starts with a color and a phrase that starts with the second word of the first phrase>>",
+      "<<In order, those clue solutions are: GREEN BEAN COUNTER, YELLOW BELLY DANCING, YELLOW CARD TABLE, RED CARPET CLEANER, BLUE COLLAR BONE, RED INK CARTRIDGE, RED LIGHT POLLUTION, GREEN TEA COZY, GREEN THUMB DRIVE, BLUE WHALE WATCHING>>",
+      "<<Use the colors of the real game Simon to determine where each answer goes>>",
+      "<<The correct position of the answers are given in the figure>>",
+      "<<When reading the boxed letters from top to bottom, the solution is spelled out: THE RAINBOW CONNECTION>>"
+    ]
+  },
+  {
+    "question": "Along the way, the sailors befriended a pod of octopuses and started to teach them semaphore. In gratitude, they each made their own flag. Becareful, though, they're only three-quarters of the way through their semaphore lesson. I wonder what they want to learn how to do next.",
+    "difficulty": "easy",
+    "image": [
+      "test\\58_0.png"
+    ],
+    "solution": "SKIPPER",
+    "steps": [
+      "<<Note that each picture is a three letter word>>",
+      "<<Convert the letters in each three letter word to semaphores>>",
+      "<<Notice the semaphores in each word occupy 6 out of the 8 possible flag positions Extract a letter from each word by taking the 2 missing positions in each word as semaphores, getting the answer \"SKIPPER\">>"
+    ]
+  },
+  {
+    "question": "Hello, human: I stole these pictures from your phone. Was that wrong? I wish to learn good from evil. Please help me feel out the correct robots to emulate. All of these ethical considerations make me dizzy! Can you tell me the name of a person who could help me with that.",
+    "difficulty": "hard",
+    "image": [
+      "test\\59_0.png"
+    ],
+    "solution": "HITCHCOCK",
+    "steps": [
+      "<<Identify good robots and bad robots based on the movie/show they are in>>",
+      "<<Using good robots as dots, each phone screen can be translated to braille, which spells out the clue INITIALS>>",
+      "<<By taking the initials of each robot, we can spell the clue, 'VERTIGO MOVIES DIRECTOR'>>",
+      "<<The director of the movie Vertigo is Alfred Hitchcock, thus the final answer is HITCHCOCK>>"
+    ]
+  },
+  {
+    "question": "The following posters can be found in the hallway of The Kennedy School.",
+    "difficulty": "medium",
+    "image": [
+      "test\\60_0.png"
+    ],
+    "solution": "UTENSIL",
+    "steps": [
+      "<<Identify from page 2 that each animal corresponds to a number from 1 through 10>>",
+      "<<From the given example which spells out 'TEST', perform a reverse mapping from letters to numbers where T is the 20th letter of the alphabet, E is 5, and S is 19>>",
+      "<<Realize that another mapping is needed from each animal, to its number, to the number of letters in the spelled-out word for that number>>",
+      "<<Apply this mapping to the new list of animals to obtain the numbers 1,6,15,18,11, and so on>>",
+      "<<Decoding these numbers back to letters gives the phrase 'A FORK, A KNIFE, A SPOON'>>",
+      "<<Extract the answer 'UTENSIL'>>"
+    ]
+  },
+  {
+    "question": "Bart is skateboarding down the middle of the road, swerving left and right over some letters.",
+    "difficulty": "medium",
+    "image": [
+      "test\\61_0.png"
+    ],
+    "solution": "ANITA BATH",
+    "steps": [
+      "<<Based on the hints and the letters already filled into the grid, find the correct word that each hint is hinting at>>",
+      "<<From top to bottom, the words are: aesop, apple, arabs, armor, atone, brain, cycle, index, laser, macho, magic, noise, relay, salon, sugar, syrup, teeth, tiger, witch>>",
+      "<<Fill in the words in the grid based on the letters already filled>>",
+      "<<The hints under Bart's path also correspond to words, which are: class, india, inch, tesla, yes, bat, salt, atom, chop>>",
+      "<<By following the filled-in grid from top down, you can find the words given by Bart's Path>>",
+      "<<Extract every pre-filled letter that the path crosses to obtain the solution, which is 'ANITA BATH'>>"
+    ]
+  },
+  {
+    "question": "To fly, Aang uses his airbending staff as a glider to catch wind currents. To control his flight, Aang bends the wind currents from their original directions to Aang flew in a different direction. Every time Aang airbends, the wind causes any flags nearby to flap around wildly. To solve this puzzle, figure out what directions.",
+    "difficulty": "medium",
+    "image": [
+      "test\\62_0.png"
+    ],
+    "solution": "WHIMSICAL",
+    "steps": [
+      "<<The puzzle presents pairs of clues with directions indicated, and rectangular flags with compass points marked>>",
+      "<<For each pair of clues, we need to identify two words that match the descriptions, noting the wind direction change mentioned in brackets>>",
+      "<<For 'Unflawed, just right \u27a1 Raw honey, or drink of the gods', we get 'Perfect' and 'Nectar' with a direction change [E -> NE], which gives us the letter 'W'>>",
+      "<<For 'Reply to a question \u27a1 Someone who gets hairy during a full moon', we get 'Answer' and 'Werewolf' with direction change [SW -> W], giving us 'H'>>",
+      "<<For 'Conflict where Achilles perished \u27a1 A large crowd of insects', we get 'Trojan War' and 'Swarm' with direction change [NW -> SW], giving us 'I'>>",
+      "<<For 'Quaker breakfast product \u27a1 To ingest, or a small songbird', we get 'Oatmeal' and 'Swallow' with direction change [E -> SW], giving us 'M'>>",
+      "<<For 'Backseat driver, unwanted advice-giver \u27a1 Timepiece, or to observe', we get 'Backseat' and 'Watch' with direction change [SE -> W], giving us 'S'>>",
+      "<<For 'Relax, slacken \u27a1 To cheat a person out of their money', we get 'Unwind' and 'Swindle' with direction change [NW -> SW], giving us 'I'>>",
+      "<<For 'What fashion models walk down \u27a1 An adage', we get 'Runway' and 'Saying' with direction change [NW -> S], giving us 'C'>>",
+      "<<For 'Honeycomb constituent \u27a1 Instrument played by Charlie Parker', we get 'Beeswax' and 'Saxophone' with direction change [SW -> S], giving us 'A'>>",
+      "<<For 'Settler in a covered wagon, pathfinder \u27a1 Veer away', we get 'Pioneer' and 'Swerve' with direction change [NE -> SW], giving us 'L'>>",
+      "<<Reading the letters in order spells 'WHIMSICAL', which is our answer>>"
+    ]
+  },
+  {
+    "question": "Ah, May, when the seniors graduate and find themselves at that juncture between childhood and adulthood... Grid first - and watch for the two kinds of twos! Clues second \u2013 and one has been circled for you.",
+    "difficulty": "medium",
+    "image": [
+      "test\\63_0.png"
+    ],
+    "solution": "INTERSECTION",
+    "steps": [
+      "<<Connect the letter to the left in a crossword fasion using the clues on the right>>",
+      "<<Recognize that the letters with the digital 2 have lines the come in or out at right angles while the curved 2's have lines that come in or out in straight lines>>",
+      "<<Recognize that the filled in words overlap by one letter each>>",
+      "<<Arrange the overlapping single letters in order to spell the solution: INTERSECTION>>"
+    ]
+  },
+  {
+    "question": "Everything in our inventory is now 50% off -- not just the price, but the items themselves. Fill in the five letters in each row to figure out what you're purchasing... and read down one of the columns to find out what else you're getting. Everything is on sale in this bonus puzzle.",
+    "difficulty": "easy",
+    "image": [
+      "test\\64_0.png"
+    ],
+    "solution": "ABSOLUTELY NO REFUNDS",
+    "steps": [
+      "<<Fill each row with the five letters given to the left of each row such that they spell a word in the category given on the right of the row>>",
+      "<<In order, those words are: CANTALOUPE, SNOWBLOWER, CHEESECAKE, MARIONETTE, EUCALYPTUS, PINCUSHION, LOBSTERPOT, TABLESPOON, TURTLENECK, HEAVYCREAM, MAYONNAISE, CELLOPHANE, SAUERKRAUT, CONCERTINA, BIRDFEEDER, CAPPUCCINO, MIXINGBOWL, CHANDELIER, BESTSELLER>>",
+      "<<By reading down the middle column, the solution is extracted: ABSOLUTELY NO REFUNDS>>"
+    ]
+  },
+  {
+    "question": "There was going to be a big musical number with the special guest right now. But since he's still missing, Kermit is going to give you a ribbiting (ha!) lecture about genealogy. All of Kermit's ancestors have unusual names, and they are related to each other in memorably strange ways. You might even say they're un-frog-ettable! Waka-waka!",
+    "difficulty": "medium",
+    "image": [
+      "test\\65_0.png"
+    ],
+    "solution": "HUNGARIAN A TAD-POLISH",
+    "steps": [
+      "<<Discover a word associated with each picture that has the number of letters clued>>",
+      "<<Arrange the words in the text boxes in the flow chart so that the connecting transformations make sense>>",
+      "<<Using the first letter of each word and the number in each text box, fill in the underlined spaces with the first letters to get \"HE'S MOSTLY HUNGARIAN AND A TAD-POLISH\">>"
+    ]
+  },
+  {
+    "question": "As Milo continued traversing the Kingdom, he discovered a great many uses for words. The king had made him eat his words, others broke their word, and others were just plain beyond words. In one small village, a lowly girl named Harmony was a matchmaker of words. Each week, she'd host a speed dating event for the words who'd wandered into town for a spell, setting up pairs of them in the tops of trees around the village. \"Isn't it wonderful?\" she exclaimed, \"even in the hearts of words, opposites attract! Hopefully they'll be willing to take a risk and make the connection.\" Harmony searched for what the attracted pairs were outside of their connection to each other. And as time went on those couples who'd crossed paths with two other couples offered the best advice for dating: telling exactly where a word would have to go out to find their perfect match.",
+    "difficulty": "medium",
+    "image": [
+      "test\\66_0.png"
+    ],
+    "solution": "ON A LIMB",
+    "steps": [
+      "<<The puzzle shows a list of words on the left side with some letters highlighted in each word>>",
+      "<<Notice that if you remove the highlighted letters from each word, you get a new valid word>>",
+      "<<For example, removing 'LEGE' from 'ALLEGE' gives 'ALE', and removing 'ARMD' from 'WARMED' gives 'WED'>>",
+      "<<Each pair of words (original and with letters removed) represents a connection or dating pair>>",
+      "<<The diagram in the center shows various icons connected by words like 'up', 'new', 'in', 'on', 'a', 'limb', etc>>",
+      "<<The instructions mention that word pairs that have 'crossed paths with two other couples' offer dating advice>>",
+      "<<Find the pairs that intersect with others on the diagram>>",
+      "<<This makes a connected path through the words 'on', 'a', and 'limb'>>",
+      "<<Therefore, the solution is 'ON A LIMB', which is an idiom meaning to take a risk - appropriate advice for dating>>",
+      "<<This connects to the flavor text which mentions being 'willing to take a risk and make the connection'>>"
+    ]
+  }
+]

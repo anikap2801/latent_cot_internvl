@@ -1,0 +1,5 @@
+batch_size: 2
+epochs: 5
+learning_rate: 1e-4
+latent_steps: 3
+latent_dim: 768
