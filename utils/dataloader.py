@@ -2,6 +2,7 @@ import os, json
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
+import torch
 
 class PuzzleWorldDataset(Dataset):
     def __init__(self, json_path, image_root, tokenizer):
@@ -20,7 +21,7 @@ class PuzzleWorldDataset(Dataset):
 
     def __getitem__(self, idx):
         sample = self.samples[idx]
-        image_path = os.path.join(self.image_root, sample['image'][0])  # list -> str
+        image_path = os.path.join(self.image_root, sample['image'][0])
         image = Image.open(image_path).convert('RGB')
         image_tensor = self.transform(image)
 
@@ -39,13 +40,23 @@ class PuzzleWorldDataset(Dataset):
             'labels': encoding['input_ids'].squeeze(0)
         }
 
+def custom_collate_fn(batch):
+    return {
+        'pixel_values': torch.stack([item['pixel_values'] for item in batch]),
+        'input_ids': torch.stack([item['input_ids'] for item in batch]),
+        'attention_mask': torch.stack([item['attention_mask'] for item in batch]),
+        'labels': torch.stack([item['labels'] for item in batch])
+    }
+
 def get_dataloaders(tokenizer, batch_size=4):
-    base = 'data/split'
-    image_root = 'data/images'
+    base = '/kaggle/input/puzzleworld-dataset/split'
+    image_root = '/kaggle/input/puzzleworld-dataset/images'
+
     return {
         split: DataLoader(
             PuzzleWorldDataset(f'{base}/{split}.json', image_root, tokenizer),
             batch_size=batch_size,
-            shuffle=(split == 'train')
+            shuffle=(split == 'train'),
+            collate_fn=custom_collate_fn
         ) for split in ['train', 'val', 'test']
     }
